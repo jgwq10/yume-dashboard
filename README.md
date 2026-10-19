@@ -26,6 +26,12 @@ The project presents data retrieved from the JSONPlaceholder API in a simple and
 
 [View Yume Dashboard](https://jgwq10.github.io/yume-dashboard/)
 
+# Screenshots
+<img width="1289" height="2160" alt="image" src="https://github.com/user-attachments/assets/24fffdfd-c1a5-4436-9d7d-15cfe5be4834" />
+<img width="1276" height="2110" alt="image" src="https://github.com/user-attachments/assets/4ebc1f0a-429c-4e69-962c-1dc7f8b632c5" />
+
+
+
 # AI Usage
 
 AI tools (ChatGPT) were used to support the development process, including:
