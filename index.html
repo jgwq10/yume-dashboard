@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Supports special characters -->
+    <meta charset="UTF-8">
+
+    <title>Yume</title>
+
+    <!-- Connects the external CSS stylesheet -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="dashboard-header">
+
+        <!-- Clickable cat logo -->
+         <button id="logo-button" class="logo-button" type="button" aria-label="Back to top">
+            <img src="assets/cat.png" alt="">
+            <h1>Yume</h1>
+         </button>
+
+         <!-- Theme toggle button -->
+          <button id="theme-button" class="theme-button" type="button" aria-label="Change theme">
+            <img src="assets/cloud.png" alt="">
+          </button>
+
+    </header>
+
+    <p class="subtitle">Your personal data dashboard</p>
+
+    <p class="description">Explore your data with Yume</p>
+
+    <!-- Container for the statictics cards -->
+    <div class="stats-container">
+
+        <!-- Card displaying the total number of users -->
+        <div class="stat-card">
+            <img src="assets/users.png" alt="Users icon" class="stat-icon">
+            <h2>Total Users</h2>
+            <p id="total-users">Loading...</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="assets/posts.png" alt="Posts icon" class="stat-icon">
+            <h2>Total Posts</h2>
+            <p id="total-posts">Loading...</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="assets/comments.png" alt="Comments icon" class="stat-icon">
+            <h2>Total Comments</h2>
+            <p id="total-comments">Loading...</p>
+        </div>
+
+        <!-- Card displaying the average number of comments per post -->
+         <div class="stat-card">
+            <img src="assets/average.png" alt="Average icon" class="stat-icon">
+            <h2>Average Comments per Post</h2>
+            <p id="average-comments">Loading...</p>
+         </div>
+
+    </div>
+
+    <!-- Section displaying the posts chart -->
+     <section class="chart-section">
+        <h2>Posts by User</h2>
+
+        <!-- Canvas used to display the chart -->
+         <canvas id="postsChart"></canvas>
+     </section>
+
+     <!-- Loads the Chart.js library -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Connects the JavaScript file -->
+     <script src="script.js"></script>
+
+     <!-- Section displaying the most commented posts -->
+     <section class="chart-section">
+        <h2>Top 5 Most Commented Posts</h2>
+
+        <!-- List of the five most commented posts -->
+         <ol id="top-posts"></ol>
+
+        <!-- Canvas for the top five posts chart -->
+         <canvas id="topPostsChart"></canvas>
+     </section>
+
+     <!-- Footer of the dashboard -->
+      <footer class="footer">
+        <p>Made with ♡ | Yume Dashboard</p>
+        <p>Data provided by JSONPlaceholder API</p>
+      </footer>
+     
+</body>
+
+</html>
