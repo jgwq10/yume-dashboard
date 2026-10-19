@@ -22,10 +22,6 @@ The project presents data retrieved from the JSONPlaceholder API in a simple and
 - JSONPlaceholder REST API
 - GitHub Pages
 
-# Screenshot
-
-![Yume Dashboard Screenshot](assets/screenshot.png)
-
 # Live Demo
 
 [View Yume Dashboard](https://jgwq10.github.io/yume-dashboard/)
